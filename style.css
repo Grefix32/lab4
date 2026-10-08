@@ -1,0 +1,25 @@
+  body { font-family: Arial, sans-serif; max-width: 760px; margin: 0 auto; padding: 16px; color: #222; }
+  h2 { margin: 32px 0 10px; border-bottom: 1px solid #ccc; padding-bottom: 4px; font-size: 18px; }
+  input[type=text] { padding: 3px 5px; }
+  button { padding: 3px 12px; }
+  .ok { color: #1a8a1a; }
+  .err { color: #e00000; }
+  .row { margin: 6px 0; }
+  .lbl { display: inline-block; width: 190px; }
+
+  /* Завдання 4 */
+  .rot { display: grid; grid-template-columns: 70px 1fr 70px; border: 1px solid #ddd; text-align: center; }
+  .rot > * { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+  .rot .head, .rot .foot { grid-column: 2; border: 1px solid #eee; padding: 6px; }
+  .rot .head { grid-row: 1; }
+  .rot .mid { grid-column: 2; grid-row: 2; height: 320px; padding: 8px; }
+  .rot .mid img { max-width: 100%; max-height: 100%; }
+  .rot .foot { grid-row: 3; height: 48px; }
+  .rot .nav { grid-row: 2; font-size: 13px; }
+
+  /* Завдання 5 */
+  .cap { display: inline-block; border: 2px solid #bbb; padding: 3px; background: #fff; }
+  .cap .digit { display: inline-block; margin-right: 6px; line-height: 0; }
+  .cap .line { display: block; height: 6px; white-space: nowrap; }
+  .cap span.px { display: inline-block; width: 6px; height: 6px; }
+  .cap span.on { background: #f00; }
